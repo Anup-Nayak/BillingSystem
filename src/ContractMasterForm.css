@@ -1,6 +1,6 @@
 .contract-form-container {
-    max-width: 600px;
-    margin: 0 auto;
+   
+    margin: 25px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -8,9 +8,41 @@
   }
   
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+  }
+
+  .second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:0px;
   }
   
+  .checkBox {
+    margin: 0px;
+    
+  }
+  
+  .checkBox label {
+    display: block;
+  }
+  
+  .checkBox input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  
+  .first{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+  }
+  
+  .second{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+  }
+
   label {
     display: block;
     font-weight: bold;
